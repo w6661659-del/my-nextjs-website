@@ -4,7 +4,6 @@
 
 ![Home Page](/.github/home-dark.png?raw=true "Home Page [Dark]")
 
-Hey, there! This is a free website template created with Next.js 11 and styled with TailwindCSS (with Just-In-Time mode!). It has built-in support for dark mode and Next-SEO for the perfect SEO optimizations. The project is available at: [https://plutonium.saurish.com](https://plutonium.saurish.com).
 
 ### Built With
 
@@ -31,10 +30,4 @@ Now you can start editing!
 
 ## Contact
 
-Let me know if you do end up using anything from here – would be neat to know!
 
-Email - [me@saurish.com](mailto:me@saurish.com)
-
-Twitter - [@saurishhh](https://twitter.com/saurishhh)
-
-Project Link: [https://github.com/minor/plutonium](https://github.com/minor/plutonium)
