@@ -8,7 +8,7 @@ export default function Error() {
     <div className="bg-white dark:bg-black">
       <Header />
       <Head>
-        <title>404: Page was not found.</title>
+        <title>404: This page is coming soon.</title>
       </Head>
       <div className="flex flex-col items-center justify-center px-10 bg-white h-[90vh] dark:bg-black md:flex-row md:space-x-6">
         <div className="space-x-2">
@@ -25,9 +25,9 @@ export default function Error() {
             page. If you&apos;re here from clicking demo: it was on purpose!
           </p>
           <Link href="/">
-            <a className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
+            <h1 className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
               Return Home
-            </a>
+            </h1>
           </Link>
         </div>
       </div>
