@@ -43,19 +43,19 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="MedLabel AI"
-        description="MedLabel AI is the world’s most trusted medical AI data."
+        title="MedLabel "
+        description="MedLabel  is the world’s most trusted medical AI data."
         canonical="https://plutonium.vercel.app/"
         openGraph={{
           url: 'https://plutonium.vercel.app/',
-          title: 'MedLabel AI',
-          description: 'MedLabel AI is the world’s most trusted medical AI data.',
+          title: 'MedLabel ',
+          description: 'MedLabel is the world’s most trusted medical AI data.',
           images: [
             {
               url: 'https://og-playground.vercel.app/api/og?title=MedLabel%20AI',
             },
           ],
-          site_name: 'MedLabel AI',
+          site_name: 'MedLabel ',
         }}
       />
       <Head>
@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative">
-        <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
+        <div className="px-4 pt-6 mx-auto max-w-7xl md:pt-6">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             {/* Animated Heading */}
             <motion.h1
@@ -74,10 +74,10 @@ export default function Home() {
               transition={{ duration: 1.2, delay: 0.3, ease: 'easeOut' }}
               className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl"
             >
-              MedLabel AI.
+              MedLabel
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 dark:from-blue-600 dark:to-green-400">
-                Trusted data. Expert-labeled. AI-ready.
+              The Data Engine for AI Diagnostics. 
               </span>
             </motion.h1>
 
@@ -88,7 +88,7 @@ export default function Home() {
               transition={{ duration: 1.2, delay: 0.5, ease: 'easeOut' }}
               className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg"
             >
-              MedLabel AI is building the world’s most trusted source of medical AI data — built in Canada, powered by board-certified radiologists, and designed for global compliance.
+              MedLabel is building the world’s most trusted source of compliant, segmented medical imaging data—automatically processed, ethically sourced from clinics, and licensed to the AI companies building the future of healthcare.
             </motion.p>
 
             {/* 3D Server */}
@@ -96,7 +96,7 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7, duration: 1.2 }}
-              className="mt-5 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 p-6"
+              className="mt-5 bg-white rounded-2xl overflow-hidden p-4"
             >
               <Suspense fallback={<DataServerLoader />}>
                 <Server3D />
@@ -151,7 +151,7 @@ export default function Home() {
             <div className="relative z-10">
               <img
                 className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
-                src="/images/ca12.jpg"
+                src="/images/27777.png"
                 alt="Medical AI Data Example"
               />
             </div>

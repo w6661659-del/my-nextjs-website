@@ -34,19 +34,19 @@ export default function Datasets() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="MedLabel AI Datasets"
+        title="MedLabel Datasets"
         description="Access expert-labeled, AI-ready medical datasets."
         canonical=""
         openGraph={{
           url: '',
-          title: 'MedLabel AI Datasets',
+          title: 'MedLabel Datasets',
           description: 'Expert-annotated, compliant, scalable medical AI datasets.',
           images: [
             {
               url: 'https://og-playground.vercel.app/api/og?title=Datasets',
             },
           ],
-          site_name: 'MedLabel AI',
+          site_name: 'MedLabel',
         }}
       />
       <Head>
@@ -94,12 +94,12 @@ export default function Datasets() {
               className="mt-16 grid md:grid-cols-3 gap-8"
             >
               <FeatureCard
-                title="Secure & PIPEDA/GDPR-Compliant"
+                title="Secure & PIPEDA/GDPR/HIPAA Compliant"
                 desc="Securely de-identified, encrypted, and Canada-hosted for privacy compliance."
               />
               <FeatureCard
-                title="Expert-Annotated, AI-Ready Data"
-                desc="Every image is reviewed and labeled by certified radiologists."
+                title="Segmented, AI-Ready Data"
+                desc="Our data-pipeline de-identifies and fully segments MRI imaging data to make it AI-ready "
               />
               <FeatureCard
                 title="Built to Scale with Your Clinic"
@@ -137,7 +137,7 @@ export default function Datasets() {
     <Link href="/" passHref legacyBehavior>
       <a target="_blank" rel="noreferrer" className="block">
         <img
-          src="/images/14.jpg"
+          src="/images/data1.jpg"
           alt="MedLabel AI Dataset Portal Preview"
           className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
           onError={(e) => {

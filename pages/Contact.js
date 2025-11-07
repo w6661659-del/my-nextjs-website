@@ -27,19 +27,19 @@ export default function Contact() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="MedLabel AI Contact"
+        title="MedLabel Contact"
         description="Get in touch with MedLabel AI — the world’s most trusted medical AI data provider."
         canonical="https://plutonium.vercel.app/contact"
         openGraph={{
           url: 'https://plutonium.vercel.app/contact',
-          title: 'Contact MedLabel AI',
+          title: 'Contact MedLabel',
           description: 'Partner with us or learn more about our medical AI datasets.',
           images: [
             {
               url: 'https://og-playground.vercel.app/api/og?title=Contact',
             },
           ],
-          site_name: 'MedLabel AI',
+          site_name: 'MedLabel',
         }}
       />
       <Head>
@@ -78,7 +78,8 @@ export default function Contact() {
             className="mt-6 text-center md:ml-6"
           >
             <Link
-              href="/Datasets"
+              href="mailto:jacob@medlabel.ca"
+              class="email-button"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
               aria-label="Explore Datasets"
               rel="noreferrer"

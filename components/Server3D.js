@@ -28,8 +28,8 @@ export default function Server3D() {
   return (
     <Canvas
       shadows
-      camera={{ position: [5, 25, 400], fov: 35 }}
-      style={{ height: '300px', width: '100%' }}
+      camera={{ position: [300, 100, 100], fov: 40 }}
+      style={{ height: '250px', width: '100%', display: 'block' }}
     >
       <ambientLight intensity={0.3} />
       <directionalLight

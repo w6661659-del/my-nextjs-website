@@ -69,9 +69,8 @@ export default function Clinics() {
               Turn Your Imaging Data into Revenue — Ethically
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
-              MedLabel AI partners with clinics to ethically source de-identified historical imaging data — transforming your archives into high-fidelity datasets for AI training. We handle compliance, labeling, and licensing, while you earn a{' '}
-              <strong>revenue share up to 37%</strong> based on your contribution volume, data quality, and the strategic value of your unique cases —{' '}
-              <strong>all with zero operational burden.</strong>
+            MedLabel partners with clinics to ethically source de-identified historical imaging data — transforming your archives into high-fidelity datasets for AI training.
+             We handle compliance, labeling, and licensing, while you get paid for every imaging exam you contribute — all with zero operational burden. No data will be collected or formal agreements initiated until MedLabel receives REB approval or waiver from a Canadian Research Ethics Board.
             </p>
 
             {/* Button */}
@@ -82,7 +81,7 @@ export default function Clinics() {
                 aria-label="Download Partner Guide"
                 rel="noreferrer"
               >
-                <span className="flex justify-center">MedLabel AI: Partner Guide for Clinics</span>
+                <span className="flex justify-center">✍️ Express Interest — No Data Collected Until REB Approval</span>
               </Link>
             </div>
           </motion.div>
@@ -105,7 +104,7 @@ export default function Clinics() {
                 >
                   <img
                     className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
-                    src="/images/12.jpg"
+                    src="/images/data2.jpg"
                     alt="Medical Imaging Data for AI"
                   />
                 </a>

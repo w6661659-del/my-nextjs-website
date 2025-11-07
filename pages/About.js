@@ -121,7 +121,7 @@ export default function About() {
             className="text-center"
           >
             <img
-              src="/images/12.jpg"
+              src="/images/mri4.png"
               alt="MedLabel AI Data Ecosystem Overview"
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-xl ring-1 ring-gray-200 dark:ring-gray-700 transition-transform duration-500 hover:scale-[1.02]"
             />
