@@ -32,7 +32,7 @@ export default function Datasets() {
   const imageIsVisible = useInView(imageRef, { once: true, margin: '-100px' });
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white">
       <NextSeo
         title="MedLabel Datasets"
         description="Access expert-labeled, AI-ready medical datasets."
@@ -66,10 +66,10 @@ export default function Datasets() {
             className="w-full pb-5 mx-auto text-center md:w-11/12"
           >
             {/* Animated Heading */}
-            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
+            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 ">
               MedLabel AI.
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 dark:from-blue-600 dark:to-green-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 ">
                 Dataset Portals.
               </span>
             </h1>
@@ -116,7 +116,7 @@ export default function Datasets() {
             >
               <Link
                 href="/Datasets"
-                className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
+                className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800"
                 aria-label="Dataset Portals Coming Soon"
                 rel="noreferrer"
               >

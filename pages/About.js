@@ -37,7 +37,7 @@ export default function About() {
   const sponsorsIsVisible = useInView(sponsorsRef, { once: true, margin: '-100px' });
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white">
       <NextSeo
         title="MedLabel AI About"
         description="MedLabel AI is the world’s most trusted medical AI data."
@@ -70,10 +70,10 @@ export default function About() {
             variants={fadeInUp}
             className="w-full pb-5 mx-auto text-center md:w-11/12"
           >
-            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
+            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 md:text-6xl">
               About MedLabel AI.
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 dark:from-blue-600 dark:to-green-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500">
                 Building The World's Most Trusted Medical AI Data Ecosystem.
               </span>
             </h1>
@@ -102,7 +102,7 @@ export default function About() {
       >
         <Link
           href="/Hospitals"
-          className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
+          className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 "
           aria-label="Download Pitch Deck"
           rel="noreferrer"
         >
@@ -123,7 +123,7 @@ export default function About() {
             <img
               src="/images/mri4.png"
               alt="MedLabel AI Data Ecosystem Overview"
-              className="w-full max-w-4xl mx-auto rounded-2xl shadow-xl ring-1 ring-gray-200 dark:ring-gray-700 transition-transform duration-500 hover:scale-[1.02]"
+              className="w-full max-w-4xl mx-auto rounded-2xl shadow-xl ring-1 ring-gray-200 transition-transform duration-500 hover:scale-[1.02]"
             />
           </motion.div>
         </div>

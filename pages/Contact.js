@@ -25,7 +25,7 @@ export default function Contact() {
   const imageIsVisible = useInView(imageRef, { once: true, margin: '-100px' });
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white">
       <NextSeo
         title="MedLabel Contact"
         description="Get in touch with MedLabel AI — the world’s most trusted medical AI data provider."
@@ -59,10 +59,10 @@ export default function Contact() {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="w-full pb-5 mx-auto text-center md:w-11/12"
           >
-            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
+            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 ">
               Contact Us
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 dark:from-blue-600 dark:to-green-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 ">
                 Help build the foundation of medical AI
               </span>
             </h1>
@@ -80,7 +80,7 @@ export default function Contact() {
             <Link
               href="mailto:jacob@medlabel.ca"
               class="email-button"
-              className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
+              className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 "
               aria-label="Explore Datasets"
               rel="noreferrer"
             >
@@ -107,7 +107,7 @@ export default function Contact() {
                   <img
                     src="/images/15.jpg"
                     alt="MedLabel AI Contact & Collaboration"
-                    className="w-full max-w-3xl mx-auto transition duration-700 shadow-xl rounded-xl ring-1 ring-gray-200 dark:ring-gray-700 hover:transform hover:scale-105"
+                    className="w-full max-w-3xl mx-auto transition duration-700 shadow-xl rounded-xl ring-1 ring-gray-200 hover:transform hover:scale-105"
                   />
                 </a>
               </Link>

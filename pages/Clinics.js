@@ -31,7 +31,7 @@ export default function Clinics() {
   const imageIsVisible = useInView(imageRef, { once: true, margin: '-100px' });
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white ">
       <NextSeo
         title="MedLabel AI Clinics"
         description="Partner with MedLabel AI to ethically monetize your imaging data."
@@ -65,10 +65,10 @@ export default function Clinics() {
             variants={fadeInUp}
             className="w-full pb-5 mx-auto text-center md:w-11/12"
           >
-            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
+            <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 ">
               Turn Your Imaging Data into Revenue — Ethically
             </h1>
-            <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
+            <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 ">
             MedLabel partners with clinics to ethically source de-identified historical imaging data — transforming your archives into high-fidelity datasets for AI training.
              We handle compliance, labeling, and licensing, while you get paid for every imaging exam you contribute — all with zero operational burden. No data will be collected or formal agreements initiated until MedLabel receives REB approval or waiver from a Canadian Research Ethics Board.
             </p>
@@ -77,7 +77,7 @@ export default function Clinics() {
             <div className="mt-6 text-center md:ml-6">
               <Link
                 href="https://github.com/minor/plutonium/"
-                className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
+                className="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition duration-300 bg-black rounded hover:bg-gray-800 "
                 aria-label="Download Partner Guide"
                 rel="noreferrer"
               >

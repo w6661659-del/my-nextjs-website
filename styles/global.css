@@ -26,8 +26,8 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(39, 39, 39);
-  outline: 1px solid rgb(33, 34, 34);
+  background-color: rgb(255, 255, 255);
+  outline: 1px solid rgb(255, 255, 255);
 }
 
 ::selection {

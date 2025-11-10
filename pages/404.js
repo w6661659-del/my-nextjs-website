@@ -5,14 +5,14 @@ import Link from "next/link";
 
 export default function Error() {
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white k">
       <Header />
       <Head>
         <title>404: This page is coming soon.</title>
       </Head>
-      <div className="flex flex-col items-center justify-center px-10 bg-white h-[90vh] dark:bg-black md:flex-row md:space-x-6">
+      <div className="flex flex-col items-center justify-center px-10 bg-white h-[90vh]  md:flex-row md:space-x-6">
         <div className="space-x-2">
-          <h1 className="text-6xl font-bold text-gray-900 dark:text-gray-100 md:text-8xl md:border-r-2 md:px-6">
+          <h1 className="text-6xl font-bold text-gray-900  md:text-8xl md:border-r-2 md:px-6">
             404
           </h1>
         </div>
@@ -25,7 +25,7 @@ export default function Error() {
             page. If you&apos;re here from clicking demo: it was on purpose!
           </p>
           <Link href="/">
-            <h1 className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
+            <h1 className="px-4 py-2.5 text-black  rounded-lg shadow transition duration-300 hover:shadow-md">
               Return Home
             </h1>
           </Link>

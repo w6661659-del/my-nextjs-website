@@ -41,7 +41,7 @@ export default function Home() {
   const pricingInView = useInView(pricingRef, { once: true, margin: '-100px' });
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white">
       <NextSeo
         title="MedLabel "
         description="MedLabel  is the world’s most trusted medical AI data."
@@ -72,11 +72,11 @@ export default function Home() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2, delay: 0.3, ease: 'easeOut' }}
-              className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl"
+              className="mb-3 text-5xl font-bold tracking-tight text-gray-900"
             >
               MedLabel
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 dark:from-blue-600 dark:to-green-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500 ">
               The Data Engine for AI Diagnostics. 
               </span>
             </motion.h1>
@@ -86,7 +86,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2, delay: 0.5, ease: 'easeOut' }}
-              className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg"
+              className="max-w-xl pt-5 mx-auto text-lg text-gray-600 "
             >
               MedLabel is building the world’s most trusted source of compliant, segmented medical imaging data—automatically processed, ethically sourced from clinics, and licensed to the AI companies building the future of healthcare.
             </motion.p>
@@ -132,7 +132,7 @@ export default function Home() {
                   transition={{ delay: 0.7, duration: 0.5 }}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-800 transition duration-300 border rounded-lg shadow hover:shadow-md hover:border-gray-400 md:ml-2 dark:text-gray-800"
+                  className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-800 transition duration-300 border rounded-lg shadow hover:shadow-md hover:border-gray-400 md:ml-2"
                 >
                   <span className="flex justify-center items-center">Investors</span>
                 </motion.div>
